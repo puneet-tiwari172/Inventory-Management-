@@ -14,9 +14,9 @@ This module extends the inventory management system by adding a billing feature.
 
  This project includes a text/CSV file that stores product details for the Inventory Management System.
     Each entry contains:
-  . Product ID (unique identifier)
-  . Product Name (item description)
-  . Price per unit
-  . Quantity available in stock
+  . Product ID (unique identifier).
+  . Product Name (item description).
+  . Price per unit.
+  . Quantity available in stock.
 
 The file acts as the database for the system. When a user makes a purchase, the program reads from this file, updates the stock, and generates a bill.
